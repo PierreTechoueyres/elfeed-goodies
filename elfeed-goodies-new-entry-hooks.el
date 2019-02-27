@@ -1,4 +1,4 @@
-;;; elfeed-goodies-new-entry-hooks.el --- new-entry hooks for Elfeed goodies
+;;; elfeed-goodies-new-entry-hooks.el --- new-entry hooks for Elfeed goodies -*- lexical-binding: t; -*-
 ;;
 ;; Copyright (c) 2015 Gergely Nagy
 ;;
@@ -28,7 +28,7 @@
                (replace (mm-url-decode-entities-string original)))
           (setf (elfeed-entry-title entry) replace)))))
 
-(defun elfeed-goodies/parse-author (type entry db-entry)
+(defun elfeed-goodies/parse-author (_type entry db-entry)
   (let* ((author-name (xml-query '(author name *) entry)))
     (setf (elfeed-meta db-entry :author) author-name)))
 

@@ -1,4 +1,4 @@
-;;; elfeed-goodies-show-mode.el --- Elfeed goodies for elfeed-show-mode
+;;; elfeed-goodies-show-mode.el --- Elfeed goodies for elfeed-show-mode -*- lexical-binding: t; -*-
 ;;
 ;; Copyright (c) 2015 Gergely Nagy
 ;;

@@ -1,4 +1,4 @@
-;;; elfeed-goodies-search-mode.el --- Elfeed goodies for the search buffer
+;;; elfeed-goodies-search-mode.el --- Elfeed goodies for the search buffer -*- lexical-binding: t; -*-
 ;;
 ;; Copyright (c) 2015 Gergely Nagy
 ;;
@@ -61,7 +61,7 @@ and the length of the active queue."
         (length url-queue)
         (cl-count-if #'url-queue-buffer url-queue)))
 
-(defun search-header/rhs (separator-left separator-right search-filter stats update)
+(defun search-header/rhs (_separator-left separator-right search-filter stats update)
   (list
    (funcall separator-right 'mode-line 'powerline-active1)
    (powerline-raw (concat " " search-filter) 'powerline-active1 'r)

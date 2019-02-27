@@ -1,4 +1,4 @@
-;;; elfeed-goodies-logging.el --- Logging support for Elfeed goodies
+;;; elfeed-goodies-logging.el --- Logging support for Elfeed goodies -*- lexical-binding: t; -*-
 ;;
 ;; Copyright (c) 2015 Gergely Nagy
 ;;

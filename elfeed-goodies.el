@@ -1,10 +1,11 @@
-;;; elfeed-goodies.el --- Elfeed goodies
+;;; elfeed-goodies.el --- Elfeed goodies -*- lexical-binding: t; -*-
 ;;
 ;; Copyright (c) 2015, 2016 Gergely Nagy
 ;;
 ;; Author: Gergely Nagy
 ;; URL: https://github.com/algernon/elfeed-goodies
 ;; Package-Requires: ((popwin "1.0.0") (powerline "2.2") (elfeed "2.0.0") (cl-lib "0.5") (noflet "0.0.10") (ace-jump-mode "2.0"))
+;; Package-Version: 20190227.2345
 ;;
 ;; This file is NOT part of GNU Emacs.
 ;;

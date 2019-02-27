@@ -1,4 +1,4 @@
-;;; elfeed-goodies-split-pane.el --- Elfeed goodies: split pane support
+;;; elfeed-goodies-split-pane.el --- Elfeed goodies: split pane support -*- lexical-binding: t; -*-
 ;;
 ;; Copyright (c) 2015, 2016 Gergely Nagy
 ;;
